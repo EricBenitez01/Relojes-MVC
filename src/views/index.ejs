@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Digital House</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+    </style>
+  </head>
+  <body>
+    <h1 class="efe">Onix</h1>
+    <p class="efe">Welcome to Onix Store</p>
+    
+    <section class="lista">            
+      <% productos.forEach(producto => { %>
+        
+        
+              <div class ="tarjeta">
+                 <img class = "img" src="<%= producto.img %> " alt="<%= producto.img %> " ">
+                 <div class ="contenedor">
+                      <h3 class="efe"><%= producto.titulo  %></h3>
+                      <h2 class="efe">$<%= producto.precio %></h2>
+                      <p class="efe"><%= producto.descripcion%></p>
+                </div>
+              </div> 
+       <% }) %>
+  
+  </section>
+  </body>
+</html>
+

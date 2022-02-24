@@ -1,0 +1,16 @@
+[
+    {
+      "id": "1",
+      "title": "Reloj Onix",
+      "precio": "$5500",
+      "descripcion": "Reloj Onix con detalles en plata",
+      "image": "https://m.media-amazon.com/images/I/41oC0UPWjSL._SL500_.jpg"
+    },
+    {
+        "id": "2",
+        "title": "Reloj Patrik",
+        "precio": "$7200",
+        "descripcion": "Reloj Patrik edicion Retro",
+        "image": "https://media.revistagq.com/photos/5f71b26a7458e06669aaa59a/master/w_1920,h_1344,c_limit/OMEGA_310.60.42.50.99.001_amb.jpg"
+    }
+]
